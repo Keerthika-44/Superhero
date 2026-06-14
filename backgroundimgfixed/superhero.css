@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+.section>h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+}
+#s1{
+    background-image: url(img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#s2{
+     background-image: url(img2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#s3{
+     background-image: url(img3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#s4{
+     background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+}
